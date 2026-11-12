@@ -1,0 +1,39 @@
+{
+  "name": "@singseq/3meta-patched",
+  "version": "2.6.0-singseq.1",
+  "description": "3meta 2.6.0 with auditable Qimen calculation corrections",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "module": "dist/3meta.esm.js",
+  "files": [
+    "dist",
+    "lib",
+    "LICENSE",
+    "README.md",
+    "README.upstream.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weihaoyang/3meta-patched.git"
+  },
+  "keywords": [
+    "奇门遁甲",
+    "奇門遁甲",
+    "qimen",
+    "divination",
+    "astrology",
+    "metaphysics",
+    "javascript",
+    "typescript"
+  ],
+  "license": "MIT",
+  "author": "3metaJun",
+  "dependencies": {
+    "dayjs": "^1.11.10",
+    "lunar-lite": "^0.2.7",
+    "lunar-typescript": "^1.8.6"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
